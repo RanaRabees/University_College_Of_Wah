@@ -1,0 +1,116 @@
+#logo{
+    margin-top: 0;
+    padding-bottom: 0;
+    width: 30%;
+    height: 170px;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 196, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: x-large;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+#card{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  mix-blend-mode: hard-light;
+  font-family: algerain;
+}
+#cardimg{
+  border-radius: 5px;
+  height: 230px;
+}
+img{
+  border-radius: 3px;
+}
+/******************************/
+
+
+/* video slider */
+
+
+/*******/
+/* background video slider */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body1 {
+  font-family: Playfair Display, sans-serif;
+  background: #f1f1f1;
+}
+
+.home1 {
+  height: 100vh;
+  position: relative;
+}
+video {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0,0,0,0.6);
+}
+.home-content1 {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  color: #fff;
+  z-index: 3;
+}
+.home-content1 h1 {
+  font-family: Playfair Display, serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 85px;
+  line-height: 1.1;
+}
+.middle-line1 {
+  height: 200px;
+  width: 2px;
+  background: #fff;
+  margin: 40px auto;
+}
+.home-content1 button {
+  display: block;
+  font-size: 20px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin: 50px auto 0;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+#TXDR {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+/* *************************************************** */
